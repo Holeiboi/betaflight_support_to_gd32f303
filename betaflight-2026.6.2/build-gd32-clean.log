@@ -1,0 +1,885 @@
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+EF HASH -> ./obj/minimal/GD32F303/.efhash_1ccee2fec8f9f0dbe93c8e7abf265794
+EF HASH -> ./obj/minimal/GD32F303/.efhash_1ccee2fec8f9f0dbe93c8e7abf265794
+%% startup_gd32f303.s 
+%% (speed optimised) ./src/platform/common/stm32/system.c 
+%% (optimised) ./src/platform/common/stm32/io_impl.c 
+%% (optimised) ./src/platform/common/stm32/config_flash.c 
+%% (optimised) ./src/platform/common/stm32/serial_uart_hw.c 
+%% (size optimised) ./src/platform/common/stm32/serial_uart_pinconfig.c 
+%% startup_gd32f303.s 
+%% (size optimised) ./src/main/drivers/serial_pinconfig.c 
+%% (speed optimised) ./src/platform/common/stm32/system.c 
+%% (optimised) ./src/main/drivers/serial_escserial.c 
+%% (optimised) ./src/platform/common/stm32/io_impl.c 
+%% (optimised) ./src/platform/GD32/bus_i2c_gd32.c 
+%% (optimised) ./src/platform/common/stm32/config_flash.c 
+%% (optimised) ./src/platform/GD32/pwm_output_gd32.c 
+%% (optimised) ./src/platform/common/stm32/serial_uart_hw.c 
+%% (size optimised) ./src/platform/common/stm32/serial_uart_pinconfig.c 
+%% (size optimised) ./src/main/drivers/serial_pinconfig.c 
+%% (optimised) ./src/platform/GD32/exti_gd32.c 
+%% (optimised) ./src/main/drivers/serial_escserial.c 
+%% (optimised) ./src/platform/GD32/system_gd32f303.c 
+%% (optimised) ./src/platform/GD32/startup/system_gd32f303.c 
+%% (optimised) ./src/platform/GD32/bus_i2c_gd32.c 
+%% (optimised) ./src/platform/GD32/io_gd32.c 
+%% (optimised) ./src/platform/GD32/rcc_gd32.c 
+%% (optimised) ./src/platform/GD32/dma_gd32f30x.c 
+%% (optimised) ./src/platform/GD32/persistent_gd32.c 
+%% (optimised) ./src/platform/GD32/pwm_output_gd32.c 
+%% (optimised) ./src/platform/GD32/exti_gd32.c 
+%% (optimised) ./src/platform/GD32/serial_uart_gd32.c 
+%% (optimised) ./src/platform/GD32/system_gd32f303.c 
+%% (optimised) ./src/platform/GD32/serial_uart_gd32f30x.c 
+%% arm_bitreversal2.S 
+%% (optimised) ./src/platform/GD32/startup/system_gd32f303.c 
+%% (optimised) ./src/platform/GD32/io_gd32.c 
+%% (optimised) ./src/main/drivers/flash/flash.c 
+%% (optimised) ./src/platform/GD32/rcc_gd32.c 
+%% (optimised) ./src/platform/GD32/dma_gd32f30x.c 
+%% (optimised) ./src/platform/GD32/persistent_gd32.c 
+%% (optimised) ./src/main/drivers/flash/flash_m25p16.c 
+%% (optimised) ./src/platform/GD32/serial_uart_gd32.c 
+%% (optimised) ./src/main/drivers/flash/flash_mt29f.c 
+%% (optimised) ./src/main/drivers/flash/flash_mx66uw1g45g.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25m.c 
+%% (optimised) ./src/platform/GD32/serial_uart_gd32f30x.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25n.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25q128fv.c 
+%% arm_bitreversal2.S 
+%% (optimised) ./src/main/io/flashfs.c 
+%% (optimised) ./src/main/drivers/sdcard.c 
+%% (optimised) ./src/main/drivers/sdcard_spi.c 
+%% (optimised) ./src/main/drivers/sdcard_sdio_baremetal.c 
+%% (optimised) ./src/main/drivers/flash/flash.c 
+%% (optimised) ./src/main/drivers/flash/flash_m25p16.c 
+%% (optimised) ./src/main/drivers/sdcard_standard.c 
+%% (optimised) ./src/main/drivers/flash/flash_mt29f.c 
+%% (optimised) ./src/main/drivers/flash/flash_mx66uw1g45g.c 
+%% (optimised) ./src/main/io/asyncfatfs/asyncfatfs.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25m.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25n.c 
+%% (optimised) ./src/main/io/asyncfatfs/fat_standard.c 
+%% (optimised) ./src/main/build/build_config.c 
+%% (optimised) ./src/main/drivers/flash/flash_w25q128fv.c 
+%% (optimised) ./src/main/build/debug.c 
+%% (optimised) ./src/main/build/version.c 
+%% (optimised) ./src/main/io/flashfs.c 
+%% (size optimised) ./src/main/main.c 
+%% (optimised) ./src/main/common/bitarray.c 
+%% (optimised) ./src/main/drivers/sdcard.c 
+%% (optimised) ./src/main/common/chirp.c 
+%% (optimised) ./src/main/drivers/sdcard_spi.c 
+%% (optimised) ./src/main/drivers/sdcard_sdio_baremetal.c 
+%% (optimised) ./src/main/drivers/sdcard_standard.c 
+%% (optimised) ./src/main/common/colorconversion.c 
+%% (optimised) ./src/main/common/crc.c 
+%% (speed optimised) ./src/main/common/encoding.c 
+%% (optimised) ./src/main/io/asyncfatfs/asyncfatfs.c 
+%% (optimised) ./src/main/common/explog_approx.c 
+%% (speed optimised) ./src/main/common/filter.c 
+%% (optimised) ./src/main/common/gps_conversion.c 
+%% (optimised) ./src/main/io/asyncfatfs/fat_standard.c 
+%% (optimised) ./src/main/build/build_config.c 
+%% (optimised) ./src/main/common/huffman.c 
+%% (optimised) ./src/main/build/debug.c 
+%% (optimised) ./src/main/build/version.c 
+%% (size optimised) ./src/main/main.c 
+%% (optimised) ./src/main/common/huffman_table.c 
+%% (speed optimised) ./src/main/common/maths.c 
+%% (optimised) ./src/main/common/bitarray.c 
+%% (optimised) ./src/main/common/chirp.c 
+%% (optimised) ./src/main/common/printf.c 
+%% (optimised) ./src/main/common/printf_serial.c 
+%% (optimised) ./src/main/common/colorconversion.c 
+%% (speed optimised) ./src/main/common/pwl.c 
+%% (speed optimised) ./src/main/common/sdft.c 
+%% (optimised) ./src/main/common/crc.c 
+%% (speed optimised) ./src/main/common/encoding.c 
+%% (optimised) ./src/main/common/explog_approx.c 
+%% (speed optimised) ./src/main/common/filter.c 
+%% (optimised) ./src/main/common/sensor_alignment.c 
+%% (speed optimised) ./src/main/common/stopwatch.c 
+%% (optimised) ./src/main/common/gps_conversion.c 
+%% (optimised) ./src/main/common/streambuf.c 
+%% (optimised) ./src/main/common/string_light.c 
+%% (optimised) ./src/main/common/huffman.c 
+%% (optimised) ./src/main/common/huffman_table.c 
+%% (speed optimised) ./src/main/common/maths.c 
+%% (optimised) ./src/main/common/strtol.c 
+%% (optimised) ./src/main/common/printf.c 
+%% (optimised) ./src/main/common/printf_serial.c 
+%% (optimised) ./src/main/common/time.c 
+%% (speed optimised) ./src/main/common/pwl.c 
+%% (speed optimised) ./src/main/common/sdft.c 
+%% (speed optimised) ./src/main/common/typeconversion.c 
+%% (optimised) ./src/main/common/sensor_alignment.c 
+%% (optimised) ./src/main/common/uvarint.c 
+%% (speed optimised) ./src/main/common/vector.c 
+%% (optimised) ./src/main/config/config.c 
+%% (size optimised) ./src/main/config/config_eeprom.c 
+%% (size optimised) ./src/main/config/config_streamer.c 
+%% (speed optimised) ./src/main/common/stopwatch.c 
+%% (optimised) ./src/main/common/streambuf.c 
+%% (size optimised) ./src/main/config/feature.c 
+%% (optimised) ./src/main/common/string_light.c 
+%% (optimised) ./src/main/common/strtol.c 
+%% (optimised) ./src/main/common/time.c 
+%% (size optimised) ./src/main/config/simplified_tuning.c 
+%% (speed optimised) ./src/main/common/typeconversion.c 
+%% (size optimised) ./src/main/cli/cli.c 
+%% (optimised) ./src/main/common/uvarint.c 
+%% (size optimised) ./src/main/cli/settings.c 
+%% (optimised) ./src/main/drivers/dshot.c 
+%% (optimised) ./src/main/drivers/dshot_command.c 
+%% (speed optimised) ./src/main/drivers/buf_writer.c 
+%% (speed optimised) ./src/main/common/vector.c 
+%% (speed optimised) ./src/main/drivers/bus.c 
+%% (optimised) ./src/main/config/config.c 
+%% (optimised) ./src/main/drivers/bus_i2c_busdev.c 
+%% (size optimised) ./src/main/config/config_eeprom.c 
+%% (size optimised) ./src/main/config/config_streamer.c 
+%% (size optimised) ./src/main/config/feature.c 
+%% (size optimised) ./src/main/config/simplified_tuning.c 
+%% (optimised) ./src/main/drivers/bus_i2c_utils.c 
+%% (optimised) ./src/main/drivers/bus_i2c_soft.c 
+%% (optimised) ./src/main/drivers/bus_octospi.c 
+%% (speed optimised) ./src/main/drivers/bus_quadspi.c 
+%% (optimised) ./src/main/drivers/buttons.c 
+%% (optimised) ./src/main/drivers/camera_control.c 
+%% (size optimised) ./src/main/cli/cli.c 
+%% (size optimised) ./src/main/cli/settings.c 
+%% (optimised) ./src/main/drivers/display.c 
+%% (optimised) ./src/main/drivers/dshot.c 
+%% (optimised) ./src/main/drivers/display_canvas.c 
+%% (optimised) ./src/main/drivers/dshot_command.c 
+%% (speed optimised) ./src/main/drivers/buf_writer.c 
+%% (optimised) ./src/main/drivers/dma.c 
+%% (speed optimised) ./src/main/drivers/io.c 
+%% (speed optimised) ./src/main/drivers/bus.c 
+%% (optimised) ./src/main/drivers/bus_i2c_busdev.c 
+%% (optimised) ./src/main/drivers/io_preinit.c 
+%% (optimised) ./src/main/drivers/lcd_console.c 
+%% (optimised) ./src/main/drivers/bus_i2c_utils.c 
+%% (optimised) ./src/main/drivers/lcd_panel/lcd_panel_font_5x7.c 
+%% (optimised) ./src/main/drivers/lcd_panel/lcd_panel_stub.c 
+%% (optimised) ./src/main/drivers/bus_i2c_soft.c 
+%% (optimised) ./src/main/drivers/bus_octospi.c 
+%% (optimised) ./src/main/drivers/lcd_panel/ssd1306_i2c.c 
+%% (speed optimised) ./src/main/drivers/bus_quadspi.c 
+%% (optimised) ./src/main/drivers/buttons.c 
+%% (optimised) ./src/main/drivers/light_led.c 
+%% (optimised) ./src/main/drivers/motor.c 
+%% (optimised) ./src/main/drivers/pinio.c 
+%% (optimised) ./src/main/drivers/pin_pull_up_down.c 
+%% (optimised) ./src/main/drivers/camera_control.c 
+%% (optimised) ./src/main/drivers/pwm_output.c 
+%% (optimised) ./src/main/drivers/resource.c 
+%% (optimised) ./src/main/drivers/display.c 
+%% (speed optimised) ./src/main/drivers/serial.c 
+%% (optimised) ./src/main/drivers/display_canvas.c 
+%% (optimised) ./src/main/drivers/serial_impl.c 
+%% (optimised) ./src/main/drivers/serial_lcd_console.c 
+%% (optimised) ./src/main/drivers/dma.c 
+%% (speed optimised) ./src/main/drivers/io.c 
+%% (optimised) ./src/main/drivers/io_preinit.c 
+%% (optimised) ./src/main/drivers/sound_beeper.c 
+%% (optimised) ./src/main/drivers/stack_check.c 
+%% (optimised) ./src/main/drivers/lcd_console.c 
+%% (optimised) ./src/main/drivers/timer_common.c 
+%% (optimised) ./src/main/drivers/transponder_ir_arcitimer.c 
+%% (optimised) ./src/main/drivers/transponder_ir_ilap.c 
+%% (optimised) ./src/main/drivers/transponder_ir_erlt.c 
+%% (optimised) ./src/main/drivers/lcd_panel/lcd_panel_font_5x7.c 
+%% (size optimised) ./src/main/fc/board_info.c 
+%% (optimised) ./src/main/drivers/lcd_panel/lcd_panel_stub.c 
+%% (optimised) ./src/main/drivers/lcd_panel/ssd1306_i2c.c 
+%% (optimised) ./src/main/fc/dispatch.c 
+%% (optimised) ./src/main/drivers/light_led.c 
+%% (optimised) ./src/main/drivers/motor.c 
+%% (optimised) ./src/main/drivers/pinio.c 
+%% (optimised) ./src/main/fc/faults.c 
+%% (speed optimised) ./src/main/fc/tasks.c 
+%% (optimised) ./src/main/drivers/pin_pull_up_down.c 
+%% (optimised) ./src/main/drivers/pwm_output.c 
+%% (optimised) ./src/main/drivers/resource.c 
+%% (speed optimised) ./src/main/fc/runtime_config.c 
+%% (optimised) ./src/main/fc/stats.c 
+%% (optimised) ./src/main/io/beeper.c 
+%% (speed optimised) ./src/main/drivers/serial.c 
+%% (optimised) ./src/main/io/piniobox.c 
+%% (optimised) ./src/main/drivers/serial_impl.c 
+%% (size optimised) ./src/main/io/serial.c 
+%% (optimised) ./src/main/drivers/serial_lcd_console.c 
+%% (optimised) ./src/main/drivers/sound_beeper.c 
+%% (optimised) ./src/main/drivers/stack_check.c 
+%% (optimised) ./src/main/io/serial_resource.c 
+%% (optimised) ./src/main/drivers/timer_common.c 
+%% (optimised) ./src/main/io/smartaudio_protocol.c 
+%% (optimised) ./src/main/io/statusindicator.c 
+%% (optimised) ./src/main/drivers/transponder_ir_arcitimer.c 
+%% (optimised) ./src/main/io/tramp_protocol.c 
+%% (optimised) ./src/main/drivers/transponder_ir_ilap.c 
+%% (optimised) ./src/main/drivers/transponder_ir_erlt.c 
+%% (size optimised) ./src/main/io/transponder_ir.c 
+%% (size optimised) ./src/main/fc/board_info.c 
+%% (optimised) ./src/main/fc/dispatch.c 
+%% (optimised) ./src/main/fc/faults.c 
+%% (size optimised) ./src/main/io/usb_cdc_hid.c 
+%% (speed optimised) ./src/main/fc/tasks.c 
+%% (optimised) ./src/main/io/usb_msc.c 
+%% (speed optimised) ./src/main/fc/runtime_config.c 
+%% (optimised) ./src/main/msp/msp.c 
+%% (optimised) ./src/main/msp/msp_box.c 
+%% (optimised) ./src/main/fc/stats.c 
+%% (optimised) ./src/main/msp/msp_build_info.c 
+%% (size optimised) ./src/main/msp/msp_serial.c 
+%% (optimised) ./src/main/io/beeper.c 
+%% (speed optimised) ./src/main/scheduler/scheduler.c 
+%% (optimised) ./src/main/sensors/adcinternal.c 
+%% (optimised) ./src/main/io/piniobox.c 
+%% (optimised) ./src/main/sensors/battery.c 
+%% (size optimised) ./src/main/io/serial.c 
+%% (optimised) ./src/main/io/serial_resource.c 
+%% (optimised) ./src/main/sensors/current.c 
+%% (optimised) ./src/main/sensors/voltage.c 
+%% (optimised) ./src/main/io/smartaudio_protocol.c 
+%% (optimised) ./src/main/target/config_helper.c 
+%% (optimised) ./src/main/io/statusindicator.c 
+%% (optimised) ./src/main/io/tramp_protocol.c 
+%% (size optimised) ./src/main/fc/init.c 
+%% (optimised) ./src/main/fc/controlrate_profile.c 
+%% (optimised) ./src/main/drivers/accgyro/gyro_sync.c 
+%% (size optimised) ./src/main/io/transponder_ir.c 
+%% (optimised) ./src/main/drivers/rx/rx_spi.c 
+%% (size optimised) ./src/main/io/usb_cdc_hid.c 
+%% (optimised) ./src/main/drivers/rx/rx_xn297.c 
+%% (optimised) ./src/main/io/usb_msc.c 
+%% (optimised) ./src/main/msp/msp.c 
+%% (optimised) ./src/main/msp/msp_box.c 
+%% (optimised) ./src/main/drivers/rx/rx_pwm.c 
+%% (optimised) ./src/main/drivers/serial_softserial.c 
+%% (optimised) ./src/main/msp/msp_build_info.c 
+%% (speed optimised) ./src/main/fc/core.c 
+%% (size optimised) ./src/main/msp/msp_serial.c 
+%% (optimised) ./src/main/fc/gps_lap_timer.c 
+%% (speed optimised) ./src/main/scheduler/scheduler.c 
+%% (speed optimised) ./src/main/fc/rc.c 
+%% (optimised) ./src/main/fc/rc_adjustments.c 
+%% (speed optimised) ./src/main/fc/rc_controls.c 
+%% (optimised) ./src/main/sensors/adcinternal.c 
+%% (optimised) ./src/main/fc/rc_modes.c 
+%% (optimised) ./src/main/flight/alt_hold_multirotor.c 
+%% (optimised) ./src/main/sensors/battery.c 
+%% (optimised) ./src/main/sensors/current.c 
+%% (optimised) ./src/main/sensors/voltage.c 
+%% (optimised) ./src/main/flight/alt_hold_wing.c 
+%% (optimised) ./src/main/flight/autopilot_multirotor.c 
+%% (optimised) ./src/main/target/config_helper.c 
+%% (size optimised) ./src/main/fc/init.c 
+%% (optimised) ./src/main/fc/controlrate_profile.c 
+%% (optimised) ./src/main/flight/autopilot_wing.c 
+%% (speed optimised) ./src/main/flight/dyn_notch_filter.c 
+%% (optimised) ./src/main/flight/failsafe.c 
+%% (optimised) ./src/main/drivers/accgyro/gyro_sync.c 
+%% (optimised) ./src/main/flight/flight_plan_capture.c 
+%% (optimised) ./src/main/drivers/rx/rx_spi.c 
+%% (optimised) ./src/main/flight/flight_plan_nav.c 
+%% (optimised) ./src/main/drivers/rx/rx_xn297.c 
+%% (optimised) ./src/main/flight/gps_rescue_multirotor.c 
+%% (optimised) ./src/main/flight/gps_rescue_wing.c 
+%% (optimised) ./src/main/drivers/rx/rx_pwm.c 
+%% (optimised) ./src/main/drivers/serial_softserial.c 
+%% (speed optimised) ./src/main/fc/core.c 
+%% (optimised) ./src/main/fc/gps_lap_timer.c 
+%% (speed optimised) ./src/main/flight/imu.c 
+%% (speed optimised) ./src/main/flight/mixer.c 
+%% (speed optimised) ./src/main/fc/rc.c 
+%% (optimised) ./src/main/fc/rc_adjustments.c 
+%% (size optimised) ./src/main/flight/mixer_init.c 
+%% (optimised) ./src/main/flight/mixer_tricopter.c 
+%% (optimised) ./src/main/flight/nav_trail.c 
+%% (speed optimised) ./src/main/fc/rc_controls.c 
+%% (optimised) ./src/main/fc/rc_modes.c 
+%% (speed optimised) ./src/main/flight/pid.c 
+%% (size optimised) ./src/main/flight/pid_init.c 
+%% (optimised) ./src/main/flight/position.c 
+%% (optimised) ./src/main/flight/alt_hold_multirotor.c 
+%% (optimised) ./src/main/flight/alt_hold_wing.c 
+%% (optimised) ./src/main/flight/position_estimator.c 
+%% (optimised) ./src/main/flight/position_filter.c 
+%% (optimised) ./src/main/flight/autopilot_multirotor.c 
+%% (optimised) ./src/main/flight/autopilot_wing.c 
+%% (optimised) ./src/main/flight/position_nav.c 
+%% (speed optimised) ./src/main/flight/dyn_notch_filter.c 
+%% (optimised) ./src/main/flight/pos_hold_multirotor.c 
+%% (optimised) ./src/main/flight/failsafe.c 
+%% (optimised) ./src/main/flight/flight_plan_capture.c 
+%% (optimised) ./src/main/flight/pos_hold_wing.c 
+%% (speed optimised) ./src/main/flight/rpm_filter.c 
+%% (optimised) ./src/main/flight/flight_plan_nav.c 
+%% (optimised) ./src/main/flight/gps_rescue_multirotor.c 
+%% (optimised) ./src/main/flight/gps_rescue_wing.c 
+%% (optimised) ./src/main/flight/servos.c 
+%% (speed optimised) ./src/main/flight/imu.c 
+%% (speed optimised) ./src/main/flight/mixer.c 
+%% (optimised) ./src/main/flight/servos_tricopter.c 
+%% (size optimised) ./src/main/flight/mixer_init.c 
+%% (size optimised) ./src/main/io/serial_4way.c 
+%% (optimised) ./src/main/flight/mixer_tricopter.c 
+%% (size optimised) ./src/main/io/serial_4way_avrootloader.c 
+%% (optimised) ./src/main/flight/nav_trail.c 
+%% (speed optimised) ./src/main/flight/pid.c 
+%% (size optimised) ./src/main/flight/pid_init.c 
+%% (size optimised) ./src/main/io/serial_4way_stk500v2.c 
+%% (optimised) ./src/main/flight/position.c 
+%% (speed optimised) ./src/main/rx/ibus.c 
+%% (optimised) ./src/main/flight/position_estimator.c 
+%% (optimised) ./src/main/rx/jetiexbus.c 
+%% (optimised) ./src/main/rx/msp.c 
+%% (optimised) ./src/main/flight/position_filter.c 
+%% (optimised) ./src/main/flight/position_nav.c 
+%% (optimised) ./src/main/rx/pwm.c 
+%% (optimised) ./src/main/flight/pos_hold_multirotor.c 
+%% (speed optimised) ./src/main/rx/frsky_crc.c 
+%% (optimised) ./src/main/flight/pos_hold_wing.c 
+%% (speed optimised) ./src/main/flight/rpm_filter.c 
+%% (speed optimised) ./src/main/rx/rc_stats.c 
+%% (speed optimised) ./src/main/rx/rx.c 
+%% (size optimised) ./src/main/rx/rx_bind.c 
+%% (optimised) ./src/main/flight/servos.c 
+%% (speed optimised) ./src/main/rx/rx_spi.c 
+%% (optimised) ./src/main/rx/rx_spi_common.c 
+%% (optimised) ./src/main/flight/servos_tricopter.c 
+%% (speed optimised) ./src/main/rx/crsf.c 
+%% (size optimised) ./src/main/io/serial_4way.c 
+%% (size optimised) ./src/main/io/serial_4way_avrootloader.c 
+%% (optimised) ./src/main/rx/ghst.c 
+%% (speed optimised) ./src/main/rx/sbus.c 
+%% (size optimised) ./src/main/io/serial_4way_stk500v2.c 
+%% (speed optimised) ./src/main/rx/sbus_channels.c 
+%% (speed optimised) ./src/main/rx/spektrum.c 
+%% (speed optimised) ./src/main/rx/ibus.c 
+%% (optimised) ./src/main/rx/jetiexbus.c 
+%% (speed optimised) ./src/main/rx/srxl2.c 
+%% (optimised) ./src/main/rx/msp.c 
+%% (optimised) ./src/main/rx/pwm.c 
+%% (speed optimised) ./src/main/rx/frsky_crc.c 
+%% (speed optimised) ./src/main/rx/rc_stats.c 
+%% (size optimised) ./src/main/io/spektrum_vtx_control.c 
+%% (optimised) ./src/main/io/spektrum_rssi.c 
+%% (speed optimised) ./src/main/rx/rx.c 
+%% (speed optimised) ./src/main/rx/sumd.c 
+%% (optimised) ./src/main/rx/sumh.c 
+%% (size optimised) ./src/main/rx/rx_bind.c 
+%% (speed optimised) ./src/main/rx/xbus.c 
+%% (speed optimised) ./src/main/rx/rx_spi.c 
+%% (speed optimised) ./src/main/rx/fport.c 
+%% (optimised) ./src/main/rx/rx_spi_common.c 
+%% (speed optimised) ./src/main/rx/crsf.c 
+%% (optimised) ./src/main/rx/ghst.c 
+%% (optimised) ./src/main/rx/mavlink.c 
+%% (speed optimised) ./src/main/rx/sbus.c 
+%% (optimised) ./src/main/rx/msp_override.c 
+%% (speed optimised) ./src/main/rx/sbus_channels.c 
+%% (speed optimised) ./src/main/sensors/acceleration.c 
+%% (size optimised) ./src/main/sensors/acceleration_init.c 
+%% (speed optimised) ./src/main/rx/spektrum.c 
+%% (speed optimised) ./src/main/sensors/boardalignment.c 
+%% (optimised) ./src/main/sensors/compass.c 
+%% (speed optimised) ./src/main/rx/srxl2.c 
+%% (speed optimised) ./src/main/sensors/gyro.c 
+%% (size optimised) ./src/main/sensors/gyro_init.c 
+%% (size optimised) ./src/main/io/spektrum_vtx_control.c 
+%% (optimised) ./src/main/sensors/initialisation.c 
+%% (optimised) ./src/main/sensors/sensors.c 
+%% (optimised) ./src/main/io/spektrum_rssi.c 
+%% (speed optimised) ./src/main/rx/sumd.c 
+%% (optimised) ./src/main/blackbox/blackbox.c 
+%% (optimised) ./src/main/blackbox/blackbox_encoding.c 
+%% (optimised) ./src/main/rx/sumh.c 
+%% (optimised) ./src/main/blackbox/blackbox_io.c 
+%% (speed optimised) ./src/main/rx/xbus.c 
+%% (speed optimised) ./src/main/rx/fport.c 
+%% (size optimised) ./src/main/cms/cms.c 
+%% (optimised) ./src/main/rx/mavlink.c 
+%% (optimised) ./src/main/rx/msp_override.c 
+%% (speed optimised) ./src/main/sensors/acceleration.c 
+%% (size optimised) ./src/main/sensors/acceleration_init.c 
+%% (size optimised) ./src/main/cms/cms_menu_blackbox.c 
+%% (size optimised) ./src/main/cms/cms_menu_failsafe.c 
+%% (speed optimised) ./src/main/sensors/boardalignment.c 
+%% (optimised) ./src/main/sensors/compass.c 
+%% (size optimised) ./src/main/cms/cms_menu_firmware.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_rescue_multirotor.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_rescue_wing.c 
+%% (speed optimised) ./src/main/sensors/gyro.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_lap_timer.c 
+%% (size optimised) ./src/main/sensors/gyro_init.c 
+%% (optimised) ./src/main/sensors/initialisation.c 
+%% (size optimised) ./src/main/cms/cms_menu_imu.c 
+%% (optimised) ./src/main/sensors/sensors.c 
+%% (size optimised) ./src/main/cms/cms_menu_ledstrip.c 
+%% (optimised) ./src/main/blackbox/blackbox.c 
+%% (optimised) ./src/main/blackbox/blackbox_encoding.c 
+%% (size optimised) ./src/main/cms/cms_menu_main.c 
+%% (optimised) ./src/main/blackbox/blackbox_io.c 
+%% (size optimised) ./src/main/cms/cms.c 
+%% (size optimised) ./src/main/cms/cms_menu_misc.c 
+%% (size optimised) ./src/main/cms/cms_menu_osd.c 
+%% (size optimised) ./src/main/cms/cms_menu_power.c 
+%% (size optimised) ./src/main/cms/cms_menu_saveexit.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_common.c 
+%% (size optimised) ./src/main/cms/cms_menu_blackbox.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_rtc6705.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_smartaudio.c 
+%% (size optimised) ./src/main/cms/cms_menu_failsafe.c 
+%% (size optimised) ./src/main/cms/cms_menu_firmware.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_rescue_multirotor.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_rescue_wing.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_tramp.c 
+%% (size optimised) ./src/main/cms/cms_menu_persistent_stats.c 
+%% (size optimised) ./src/main/cms/cms_menu_gps_lap_timer.c 
+%% (size optimised) ./src/main/cms/cms_menu_imu.c 
+%% (size optimised) ./src/main/cms/cms_menu_rpm_limit.c 
+%% (size optimised) ./src/main/cms/cms_menu_quick.c 
+%% (size optimised) ./src/main/drivers/display_ug2864hsweg01.c 
+%% (size optimised) ./src/main/cms/cms_menu_ledstrip.c 
+%% (size optimised) ./src/main/drivers/light_ws2811strip.c 
+%% (size optimised) ./src/main/cms/cms_menu_main.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_lidartf.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_hcsr04.c 
+%% (size optimised) ./src/main/cms/cms_menu_misc.c 
+%% (size optimised) ./src/main/cms/cms_menu_osd.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_lidarmt.c 
+%% (size optimised) ./src/main/cms/cms_menu_power.c 
+%% (size optimised) ./src/main/cms/cms_menu_saveexit.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_common.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_nooploop.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_upt1.c 
+%% (size optimised) ./src/main/drivers/vtx_common.c 
+%% (optimised) ./src/main/drivers/vtx_table.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_rtc6705.c 
+%% (size optimised) ./src/main/io/dashboard.c 
+%% (optimised) ./src/main/io/displayport_fb_osd.c 
+%% (optimised) ./src/main/io/displayport_frsky_osd.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_smartaudio.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_tramp.c 
+%% (size optimised) ./src/main/cms/cms_menu_persistent_stats.c 
+%% (size optimised) ./src/main/cms/cms_menu_rpm_limit.c 
+%% (size optimised) ./src/main/cms/cms_menu_quick.c 
+%% (size optimised) ./src/main/drivers/display_ug2864hsweg01.c 
+%% (optimised) ./src/main/io/displayport_msp.c 
+%% (optimised) ./src/main/io/displayport_max7456.c 
+%% (size optimised) ./src/main/drivers/light_ws2811strip.c 
+%% (optimised) ./src/main/io/displayport_oled.c 
+%% (optimised) ./src/main/io/displayport_srxl.c 
+%% (optimised) ./src/main/io/displayport_crsf.c 
+%% (optimised) ./src/main/io/displayport_hott.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_hcsr04.c 
+%% (optimised) ./src/main/io/frsky_osd.c 
+%% (optimised) ./src/main/io/gimbal_control.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_lidartf.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_lidarmt.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_nooploop.c 
+%% (optimised) ./src/main/drivers/rangefinder/rangefinder_upt1.c 
+%% (size optimised) ./src/main/drivers/vtx_common.c 
+%% (optimised) ./src/main/io/rcdevice_cam.c 
+%% (optimised) ./src/main/io/rcdevice.c 
+%% (optimised) ./src/main/io/gps.c 
+%% (optimised) ./src/main/drivers/vtx_table.c 
+%% (size optimised) ./src/main/io/dashboard.c 
+%% (optimised) ./src/main/io/ledstrip.c 
+%% (optimised) ./src/main/io/pidaudio.c 
+%% (size optimised) ./src/main/osd/osd.c 
+%% (optimised) ./src/main/io/displayport_fb_osd.c 
+%% (optimised) ./src/main/io/displayport_frsky_osd.c 
+%% (size optimised) ./src/main/osd/osd_custom_text.c 
+%% (size optimised) ./src/main/osd/osd_elements.c 
+%% (optimised) ./src/main/io/displayport_max7456.c 
+%% (optimised) ./src/main/io/displayport_msp.c 
+%% (optimised) ./src/main/io/displayport_oled.c 
+%% (optimised) ./src/main/io/displayport_srxl.c 
+%% (size optimised) ./src/main/osd/osd_nav_map.c 
+%% (size optimised) ./src/main/osd/osd_warnings.c 
+%% (optimised) ./src/main/io/displayport_crsf.c 
+%% (optimised) ./src/main/io/displayport_hott.c 
+%% (optimised) ./src/main/sensors/barometer.c 
+%% (optimised) ./src/main/sensors/rangefinder.c 
+%% (optimised) ./src/main/io/frsky_osd.c 
+%% (optimised) ./src/main/sensors/opticalflow.c 
+%% (optimised) ./src/main/telemetry/telemetry.c 
+%% (optimised) ./src/main/telemetry/crsf.c 
+%% (optimised) ./src/main/io/gimbal_control.c 
+%% (optimised) ./src/main/telemetry/ghst.c 
+%% (optimised) ./src/main/io/rcdevice_cam.c 
+%% (optimised) ./src/main/io/rcdevice.c 
+%% (optimised) ./src/main/io/gps.c 
+%% (optimised) ./src/main/telemetry/srxl.c 
+%% (optimised) ./src/main/io/ledstrip.c 
+%% (optimised) ./src/main/telemetry/frsky_hub.c 
+%% (optimised) ./src/main/io/pidaudio.c 
+%% (optimised) ./src/main/telemetry/hott.c 
+%% (optimised) ./src/main/telemetry/jetiexbus.c 
+%% (optimised) ./src/main/telemetry/smartport.c 
+%% (size optimised) ./src/main/osd/osd.c 
+%% (size optimised) ./src/main/osd/osd_custom_text.c 
+%% (optimised) ./src/main/telemetry/ltm.c 
+%% (size optimised) ./src/main/osd/osd_elements.c 
+%% (size optimised) ./src/main/osd/osd_nav_map.c 
+%% (optimised) ./src/main/telemetry/mavlink.c 
+%% (size optimised) ./src/main/osd/osd_warnings.c 
+%% (optimised) ./src/main/sensors/barometer.c 
+%% (optimised) ./src/main/telemetry/mavlink_mission.c 
+%% (optimised) ./src/main/telemetry/msp_shared.c 
+%% (optimised) ./src/main/sensors/rangefinder.c 
+%% (optimised) ./src/main/telemetry/ibus.c 
+%% (optimised) ./src/main/sensors/opticalflow.c 
+%% (optimised) ./src/main/telemetry/telemetry.c 
+%% (optimised) ./src/main/telemetry/ibus_shared.c 
+%% (optimised) ./src/main/telemetry/crsf.c 
+%% (optimised) ./src/main/sensors/esc_sensor.c 
+%% (size optimised) ./src/main/io/vtx.c 
+%% (optimised) ./src/main/telemetry/ghst.c 
+%% (optimised) ./src/main/telemetry/srxl.c 
+%% (size optimised) ./src/main/io/vtx_rtc6705.c 
+%% (size optimised) ./src/main/io/vtx_smartaudio.c 
+%% (optimised) ./src/main/telemetry/frsky_hub.c 
+%% (size optimised) ./src/main/io/vtx_tramp.c 
+%% (optimised) ./src/main/telemetry/hott.c 
+%% (size optimised) ./src/main/io/vtx_control.c 
+%% (optimised) ./src/main/telemetry/jetiexbus.c 
+%% (size optimised) ./src/main/io/vtx_msp.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_msp.c 
+%% (optimised) ./src/main/telemetry/smartport.c 
+%% (optimised) ./src/main/telemetry/ltm.c 
+%% (speed optimised) ./src/main/drivers/bus_spi.c 
+%% (optimised) ./src/main/telemetry/mavlink.c 
+%% (speed optimised) ./src/main/drivers/serial_uart.c 
+%% (optimised) ./src/main/telemetry/mavlink_mission.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_mpu6050.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_mpu6500.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_mpu.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_bmi160.c 
+%% (optimised) ./src/main/telemetry/msp_shared.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_bmi270.c 
+%% (optimised) ./src/main/telemetry/ibus.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm20649.c 
+%% (optimised) ./src/main/telemetry/ibus_shared.c 
+%% (optimised) ./src/main/sensors/esc_sensor.c 
+%% (size optimised) ./src/main/io/vtx.c 
+%% (size optimised) ./src/main/io/vtx_rtc6705.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_icm20689.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm40609.c 
+%% (size optimised) ./src/main/io/vtx_smartaudio.c 
+%% (size optimised) ./src/main/io/vtx_tramp.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_icm426xx.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm456xx.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm56686.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_l3gd20.c 
+%% (size optimised) ./src/main/io/vtx_control.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dso.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dso_init.c 
+%% (size optimised) ./src/main/io/vtx_msp.c 
+%% (size optimised) ./src/main/cms/cms_menu_vtx_msp.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dsv16x.c 
+%% (speed optimised) ./src/main/drivers/bus_spi.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu6000.c 
+%% (speed optimised) ./src/main/drivers/serial_uart.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_mpu6050.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu6500.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_mpu6500.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_mpu.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu9250.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_virtual.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_bmi160.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_bmi270.c 
+%% (optimised) ./lib/main/BoschSensortec/BMI270-Sensor-API/bmi270_maximum_fifo.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm20649.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_2smpb_02b.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_icm20689.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm40609.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_bmp085.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_icm426xx.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm456xx.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_bmp280.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_icm56686.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_l3gd20.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_bmp388.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_bmp5xx.c 
+%% (speed optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dso.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_dps310.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dso_init.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_spi_lsm6dsv16x.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_lps22df.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_lps.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu6000.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_ms5611.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu6500.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_qmp6988.c 
+%% (size optimised) ./src/main/drivers/accgyro/accgyro_spi_mpu9250.c 
+%% (optimised) ./src/main/drivers/accgyro/accgyro_virtual.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_virtual.c 
+%% (optimised) ./lib/main/BoschSensortec/BMI270-Sensor-API/bmi270_maximum_fifo.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ak8963.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_2smpb_02b.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ak8975.c 
+%% (size optimised) ./src/main/drivers/compass/compass_hmc5883l.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_bmp085.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ist8310.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_bmp280.c 
+%% (size optimised) ./src/main/drivers/compass/compass_lis2mdl.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_bmp388.c 
+%% (size optimised) ./src/main/drivers/compass/compass_lis3mdl.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_bmp5xx.c 
+%% (size optimised) ./src/main/drivers/compass/compass_mmc560x.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_dps310.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_lps22df.c 
+%% (optimised) ./src/main/drivers/compass/compass_mpu925x_ak8963.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_lps.c 
+%% (size optimised) ./src/main/drivers/compass/compass_qmc5883.c 
+%% (optimised) ./src/main/drivers/compass/compass_virtual.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_ms5611.c 
+%% (size optimised) ./src/main/drivers/barometer/barometer_qmp6988.c 
+%% (optimised) ./src/main/drivers/max7456.c 
+%% (size optimised) ./src/main/drivers/vtx_rtc6705.c 
+%% (optimised) ./src/main/drivers/barometer/barometer_virtual.c 
+%% (size optimised) ./src/main/drivers/vtx_rtc6705_soft_spi.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ak8963.c 
+%% (optimised) ./src/main/pg/adc.c 
+%% (optimised) ./src/main/pg/alt_hold_multirotor.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ak8975.c 
+%% (size optimised) ./src/main/drivers/compass/compass_hmc5883l.c 
+%% (optimised) ./src/main/pg/alt_hold_wing.c 
+%% (size optimised) ./src/main/drivers/compass/compass_ist8310.c 
+%% (size optimised) ./src/main/drivers/compass/compass_lis2mdl.c 
+%% (optimised) ./src/main/pg/autopilot.c 
+%% (size optimised) ./src/main/drivers/compass/compass_lis3mdl.c 
+%% (optimised) ./src/main/pg/beeper.c 
+%% (optimised) ./src/main/pg/beeper_dev.c 
+%% (optimised) ./src/main/pg/board.c 
+%% (size optimised) ./src/main/drivers/compass/compass_mmc560x.c 
+%% (optimised) ./src/main/pg/bus_i2c.c 
+%% (optimised) ./src/main/pg/bus_quadspi.c 
+%% (optimised) ./src/main/drivers/compass/compass_mpu925x_ak8963.c 
+%% (size optimised) ./src/main/drivers/compass/compass_qmc5883.c 
+%% (optimised) ./src/main/pg/bus_spi.c 
+%% (optimised) ./src/main/pg/can.c 
+%% (optimised) ./src/main/drivers/compass/compass_virtual.c 
+%% (optimised) ./src/main/pg/dashboard.c 
+%% (optimised) ./src/main/drivers/max7456.c 
+%% (size optimised) ./src/main/drivers/vtx_rtc6705.c 
+%% (optimised) ./src/main/pg/dronecan.c 
+%% (size optimised) ./src/main/drivers/vtx_rtc6705_soft_spi.c 
+%% (optimised) ./src/main/pg/dronecan_dna.c 
+%% (optimised) ./src/main/pg/adc.c 
+%% (optimised) ./src/main/pg/displayport_profiles.c 
+%% (optimised) ./src/main/pg/alt_hold_multirotor.c 
+%% (optimised) ./src/main/pg/dyn_notch.c 
+%% (optimised) ./src/main/pg/flash.c 
+%% (optimised) ./src/main/pg/alt_hold_wing.c 
+%% (optimised) ./src/main/pg/autopilot.c 
+%% (optimised) ./src/main/pg/flight_plan.c 
+%% (optimised) ./src/main/pg/beeper.c 
+%% (optimised) ./src/main/pg/beeper_dev.c 
+%% (optimised) ./src/main/pg/gimbal.c 
+%% (optimised) ./src/main/pg/board.c 
+%% (optimised) ./src/main/pg/gps.c 
+%% (optimised) ./src/main/pg/bus_i2c.c 
+%% (optimised) ./src/main/pg/bus_quadspi.c 
+%% (optimised) ./src/main/pg/gps_lap_timer.c 
+%% (optimised) ./src/main/pg/gps_rescue_multirotor.c 
+%% (optimised) ./src/main/pg/gps_rescue_wing.c 
+%% (optimised) ./src/main/pg/bus_spi.c 
+%% (optimised) ./src/main/pg/gyrodev.c 
+%% (optimised) ./src/main/pg/can.c 
+%% (optimised) ./src/main/pg/max7456.c 
+%% (optimised) ./src/main/pg/mco.c 
+%% (optimised) ./src/main/pg/dashboard.c 
+%% (optimised) ./src/main/pg/dronecan.c 
+%% (optimised) ./src/main/pg/dronecan_dna.c 
+%% (optimised) ./src/main/pg/motor.c 
+%% (optimised) ./src/main/pg/displayport_profiles.c 
+%% (optimised) ./src/main/pg/msp.c 
+%% (optimised) ./src/main/pg/dyn_notch.c 
+%% (optimised) ./src/main/pg/osd_nav_map.c 
+%% (optimised) ./src/main/pg/flash.c 
+%% (optimised) ./src/main/pg/flight_plan.c 
+%% (optimised) ./src/main/pg/pg.c 
+%% (optimised) ./src/main/pg/gimbal.c 
+%% (optimised) ./src/main/pg/pilot.c 
+%% (optimised) ./src/main/pg/piniobox.c 
+%% (optimised) ./src/main/pg/gps.c 
+%% (optimised) ./src/main/pg/gps_lap_timer.c 
+%% (optimised) ./src/main/pg/pinio.c 
+%% (optimised) ./src/main/pg/pin_pull_up_down.c 
+%% (optimised) ./src/main/pg/gps_rescue_multirotor.c 
+%% (optimised) ./src/main/pg/gps_rescue_wing.c 
+%% (optimised) ./src/main/pg/pos_hold_multirotor.c 
+%% (optimised) ./src/main/pg/pos_hold_wing.c 
+%% (optimised) ./src/main/pg/gyrodev.c 
+%% (optimised) ./src/main/pg/rcdevice.c 
+%% (optimised) ./src/main/pg/max7456.c 
+%% (optimised) ./src/main/pg/mco.c 
+%% (optimised) ./src/main/pg/rpm_filter.c 
+%% (optimised) ./src/main/pg/motor.c 
+%% (optimised) ./src/main/pg/rx.c 
+%% (optimised) ./src/main/pg/msp.c 
+%% (optimised) ./src/main/pg/rx_pwm.c 
+%% (optimised) ./src/main/pg/osd_nav_map.c 
+%% (optimised) ./src/main/pg/rx_spi.c 
+%% (optimised) ./src/main/pg/pg.c 
+%% (optimised) ./src/main/pg/pilot.c 
+%% (optimised) ./src/main/pg/piniobox.c 
+%% (optimised) ./src/main/pg/rx_spi_cc2500.c 
+%% (optimised) ./src/main/pg/rx_spi_expresslrs.c 
+%% (optimised) ./src/main/pg/pinio.c 
+%% (optimised) ./src/main/pg/scheduler.c 
+%% (optimised) ./src/main/pg/pin_pull_up_down.c 
+%% (optimised) ./src/main/pg/sdcard.c 
+%% (optimised) ./src/main/pg/sdio.c 
+%% (optimised) ./src/main/pg/serial_uart.c 
+%% (optimised) ./src/main/pg/pos_hold_multirotor.c 
+%% (optimised) ./src/main/pg/pos_hold_wing.c 
+%% (optimised) ./src/main/pg/rcdevice.c 
+%% (optimised) ./src/main/pg/stats.c 
+%% (optimised) ./src/main/pg/rpm_filter.c 
+%% (optimised) ./src/main/pg/rx.c 
+%% (optimised) ./src/main/pg/rx_pwm.c 
+%% (optimised) ./src/main/pg/timerio.c 
+%% (optimised) ./src/main/pg/timerup.c 
+%% (optimised) ./src/main/pg/rx_spi.c 
+%% (optimised) ./src/main/pg/rx_spi_cc2500.c 
+%% (optimised) ./src/main/pg/usb.c 
+%% (optimised) ./src/main/pg/vcd.c 
+%% (optimised) ./src/main/pg/vtx_io.c 
+%% (optimised) ./src/main/pg/vtx_table.c 
+%% (optimised) ./src/main/pg/rx_spi_expresslrs.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_adc.c 
+%% (optimised) ./src/main/pg/scheduler.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_bkp.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_crc.c 
+%% (optimised) ./src/main/pg/sdcard.c 
+%% (optimised) ./src/main/pg/sdio.c 
+%% (optimised) ./src/main/pg/serial_uart.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_ctc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dac.c 
+%% (optimised) ./src/main/pg/stats.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dbg.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dma.c 
+%% (optimised) ./src/main/pg/timerio.c 
+%% (optimised) ./src/main/pg/timerup.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_enet.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_exti.c 
+%% (optimised) ./src/main/pg/usb.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_fmc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_fwdgt.c 
+%% (optimised) ./src/main/pg/vcd.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_gpio.c 
+%% (optimised) ./src/main/pg/vtx_io.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_i2c.c 
+%% (optimised) ./src/main/pg/vtx_table.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_adc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_misc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_bkp.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_pmu.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_crc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_rcu.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_ctc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_rtc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dac.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_spi.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dbg.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_timer.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_dma.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_usart.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_enet.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_wwdgt.c 
+%% (optimised) ./src/main/drivers/rx/expresslrs_driver.c 
+%% (optimised) ./src/main/drivers/rx/rx_a7105.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_exti.c 
+%% (optimised) ./src/main/drivers/rx/rx_cc2500.c 
+%% (optimised) ./src/main/drivers/rx/rx_cyrf6936.c 
+%% (optimised) ./src/main/drivers/rx/rx_nrf24l01.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_fmc.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_fwdgt.c 
+%% (optimised) ./src/main/drivers/rx/rx_sx127x.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_gpio.c 
+%% (optimised) ./src/main/drivers/rx/rx_sx1280.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_i2c.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_misc.c 
+%% (optimised) ./src/main/rx/cc2500_common.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_shared.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_pmu.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_d.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_rcu.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_x.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_rtc.c 
+%% (optimised) ./src/main/rx/cc2500_sfhss.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_spi.c 
+%% (optimised) ./src/main/rx/cc2500_redpine.c 
+%% (optimised) ./src/main/rx/a7105_flysky.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_timer.c 
+%% (optimised) ./src/main/rx/cyrf6936_spektrum.c 
+%% (optimised) ./src/main/rx/expresslrs.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_usart.c 
+%% (optimised) ./src/main/rx/expresslrs_common.c 
+%% (optimised) ./lib/main/GD32F30x/GStdPeriph/Source/gd32f30x_wwdgt.c 
+%% (optimised) ./src/main/drivers/rx/expresslrs_driver.c 
+%% (optimised) ./src/main/rx/expresslrs_telemetry.c 
+%% (optimised) ./src/main/drivers/rx/rx_a7105.c 
+%% (optimised) ./src/main/drivers/rx/rx_cc2500.c 
+%% (optimised) ./src/main/drivers/rx/rx_cyrf6936.c 
+%% (optimised) ./src/main/drivers/rx/rx_nrf24l01.c 
+%% (size optimised) ./lib/main/google/olc/olc.c 
+%% (optimised) ./src/main/drivers/rx/rx_sx127x.c 
+%% (optimised) ./src/main/drivers/rx/rx_sx1280.c 
+%% (optimised) ./src/main/rx/cc2500_common.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_shared.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_d.c 
+%% (optimised) ./src/main/rx/cc2500_frsky_x.c 
+%% (optimised) ./src/main/rx/cc2500_sfhss.c 
+%% (optimised) ./src/main/rx/cc2500_redpine.c 
+%% (optimised) ./src/main/rx/a7105_flysky.c 
+%% (optimised) ./src/main/rx/cyrf6936_spektrum.c 
+Linking GD32F303 
+%% (optimised) ./src/main/rx/expresslrs.c 
+%% (optimised) ./src/main/rx/expresslrs_common.c 
+%% (optimised) ./src/main/rx/expresslrs_telemetry.c 
+%% (size optimised) ./lib/main/google/olc/olc.c 
+Linking GD32F303 
+Memory region         Used Size  Region Size  %age Used
+           FLASH:         304 B        16 KB      1.86%
+    FLASH_CONFIG:          0 GB        16 KB      0.00%
+          FLASH1:      156828 B       480 KB     31.91%
+          FLASH2:          0 GB       512 KB      0.00%
+   SYSTEM_MEMORY:          0 GB        28 KB      0.00%
+             RAM:       16368 B        96 KB     16.65%
+       MEMORY_B1:          0 GB         0 GB
+   text	   data	    bss	    dec	    hex	filename
+ 156308	    824	  15540	 172672	  2a280	./obj/minimal/betaflight_GD32F303.elf
+Creating HEX ./obj/minimal-firmware/betaflight_2026.6.2_GD32F303.hex 
+Memory region         Used Size  Region Size  %age Used
+           FLASH:         304 B        16 KB      1.86%
+    FLASH_CONFIG:          0 GB        16 KB      0.00%
+          FLASH1:      156828 B       480 KB     31.91%
+          FLASH2:          0 GB       512 KB      0.00%
+   SYSTEM_MEMORY:          0 GB        28 KB      0.00%
+             RAM:       16368 B        96 KB     16.65%
+       MEMORY_B1:          0 GB         0 GB
+   text	   data	    bss	    dec	    hex	filename
+ 156308	    824	  15540	 172672	  2a280	./obj/minimal/betaflight_GD32F303.elf
+arm-none-eabi-objcopy: obj/minimal-firmware/betaflight_2026.6.2_GD32F303.hex: Bad file descriptor
+make[1]: *** [Makefile:518: obj/minimal-firmware/betaflight_2026.6.2_GD32F303.hex] Error 1
+make: *** [Makefile:779: hex] Error 2
+make: *** Waiting for unfinished jobs....
+Creating BIN ./obj/minimal-firmware/betaflight_2026.6.2_GD32F303.bin 
+arm-none-eabi-objcopy: obj/minimal-firmware/betaflight_2026.6.2_GD32F303.bin: Bad file descriptor
+make[1]: *** [Makefile:507: obj/minimal-firmware/betaflight_2026.6.2_GD32F303.bin] Error 1
+make: *** [Makefile:775: binary] Error 2

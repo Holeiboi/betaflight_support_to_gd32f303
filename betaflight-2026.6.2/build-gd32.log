@@ -1,0 +1,16 @@
+/usr/bin/sh: realpath: command not found
+/usr/bin/sh: realpath: command not found
+%% (optimised) ./src/platform/GD32/system_gd32f303.c 
+%% (optimised) ./src/platform/GD32/serial_uart_gd32.c 
+%% (optimised) ./src/main/build/version.c 
+Linking GD32F303 
+Memory region         Used Size  Region Size  %age Used
+           FLASH:         304 B        16 KB      1.86%
+    FLASH_CONFIG:          0 GB        16 KB      0.00%
+          FLASH1:      156756 B       480 KB     31.89%
+          FLASH2:          0 GB       512 KB      0.00%
+   SYSTEM_MEMORY:          0 GB        28 KB      0.00%
+             RAM:       16364 B        96 KB     16.65%
+       MEMORY_B1:          0 GB         0 GB
+   text	   data	    bss	    dec	    hex	filename
+ 156236	    824	  15536	 172596	  2a234	./obj/main/betaflight_GD32F303.elf
