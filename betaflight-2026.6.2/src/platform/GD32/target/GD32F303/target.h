@@ -54,6 +54,11 @@
 #define MAX7456_SPI_CS_PIN PB12
 #define MAX7456_SPI_INSTANCE SPI1
 #define USE_OSD
+#define USE_VTX // Advertise the VTX page through MSP_BUILD_INFO.
+#define USE_VTX_COMMON
+#define USE_VTX_CONTROL
+#define USE_VTX_SMARTAUDIO
+#define USE_VTX_TABLE
 
 #define USE_BEEPER
 #define BEEPER_PIN PB5

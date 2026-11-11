@@ -24,9 +24,35 @@
 
 #include "platform/rcc.h"
 
+static bool uartUsesSmartAudio(const uartPort_t *uartPort)
+{
+    const portOptions_e options = SERIAL_BIDIR | SERIAL_PULL_SMARTAUDIO;
+    return (uartPort->port.options & options) == options;
+}
+
+static IO_t uartTxIo(uartPort_t *uartPort)
+{
+    uartDevice_t *uart = container_of(uartPort, uartDevice_t, port);
+    return IOGetByTag(uart->tx.pin);
+}
+
+static void uartSmartAudioReceive(uartPort_t *uartPort)
+{
+    const uint32_t usart = (uint32_t)uartPort->USARTx;
+
+    // Release the push-pull output so the VTX can drive the same wire.
+    IOConfigGPIO(uartTxIo(uartPort), IOCFG_IPD);
+    usart_transmit_config(usart, USART_TRANSMIT_DISABLE);
+    usart_interrupt_disable(usart, USART_INT_TC);
+    if (uartPort->port.mode & MODE_RX) {
+        usart_receive_config(usart, USART_RECEIVE_ENABLE);
+    }
+}
+
 void uartReconfigure(uartPort_t *uartPort)
 {
     const uint32_t usart = (uint32_t)uartPort->USARTx;
+    const bool smartAudio = uartUsesSmartAudio(uartPort);
 
     usart_disable(usart);
     usart_deinit(usart);
@@ -41,16 +67,11 @@ void uartReconfigure(uartPort_t *uartPort)
     usart_hardware_flow_rts_config(usart, USART_RTS_DISABLE);
     usart_hardware_flow_cts_config(usart, USART_CTS_DISABLE);
 
-    if (uartPort->port.mode & MODE_RX) {
-        usart_receive_config(usart, USART_RECEIVE_ENABLE);
+    if (smartAudio) {
+        uartSmartAudioReceive(uartPort);
     } else {
-        usart_receive_config(usart, USART_RECEIVE_DISABLE);
-    }
-
-    if (uartPort->port.mode & MODE_TX) {
-        usart_transmit_config(usart, USART_TRANSMIT_ENABLE);
-    } else {
-        usart_transmit_config(usart, USART_TRANSMIT_DISABLE);
+        usart_receive_config(usart, (uartPort->port.mode & MODE_RX) ? USART_RECEIVE_ENABLE : USART_RECEIVE_DISABLE);
+        usart_transmit_config(usart, (uartPort->port.mode & MODE_TX) ? USART_TRANSMIT_ENABLE : USART_TRANSMIT_DISABLE);
     }
 
     uartConfigureExternalPinInversion(uartPort);
@@ -68,7 +89,7 @@ void uartReconfigure(uartPort_t *uartPort)
      * TX and RX as AF push-pull.  RX must be an input (floating or pulled up)
      * or the receiver never sees a proper idle level.
      */
-    {
+    if (!smartAudio) {
         uartDevice_t *uart = container_of(uartPort, uartDevice_t, port);
         IO_t rxIO = IOGetByTag(uart->rx.pin);
         if (rxIO) {
@@ -84,7 +105,9 @@ void uartReconfigure(uartPort_t *uartPort)
 
     if (uartPort->port.mode & MODE_TX) {
         usart_interrupt_enable(usart, USART_INT_TBE);
-        usart_interrupt_enable(usart, USART_INT_TC);
+        if (!smartAudio) {
+            usart_interrupt_enable(usart, USART_INT_TC);
+        }
     }
 }
 
@@ -118,27 +141,42 @@ void uartTxMonitor(uartPort_t *s)
 void uartIrqHandler(uartPort_t *s)
 {
     const uint32_t usart = (uint32_t)s->USARTx;
+    const bool smartAudio = uartUsesSmartAudio(s);
 
     if (usart_interrupt_flag_get(usart, USART_INT_FLAG_RBNE) == SET) {
+        // A SmartAudio line held low while idle can be seen as a break.
+        const bool framingError = smartAudio && usart_flag_get(usart, USART_FLAG_FERR) == SET;
         const uint8_t data = (uint8_t)usart_data_receive(usart);
 
-        if (s->port.rxCallback) {
-            s->port.rxCallback(data, s->port.rxCallbackData);
-        } else {
-            s->port.rxBuffer[s->port.rxBufferHead] = data;
-            s->port.rxBufferHead = (s->port.rxBufferHead + 1) % s->port.rxBufferSize;
+        if (!framingError) {
+            if (s->port.rxCallback) {
+                s->port.rxCallback(data, s->port.rxCallbackData);
+            } else {
+                s->port.rxBuffer[s->port.rxBufferHead] = data;
+                s->port.rxBufferHead = (s->port.rxBufferHead + 1) % s->port.rxBufferSize;
+            }
         }
     }
 
     if (usart_interrupt_flag_get(usart, USART_INT_FLAG_TC) == SET) {
         if (s->port.txBufferHead == s->port.txBufferTail) {
-            uartTxMonitor(s);
+            if (smartAudio) {
+                uartSmartAudioReceive(s);
+            } else {
+                uartTxMonitor(s);
+            }
         }
         usart_interrupt_flag_clear(usart, USART_INT_FLAG_TC);
     }
 
     if (usart_interrupt_flag_get(usart, USART_INT_FLAG_TBE) == SET) {
         if (s->port.txBufferTail != s->port.txBufferHead) {
+            if (smartAudio && !(USART_CTL0(usart) & USART_CTL0_TEN)) {
+                usart_receive_config(usart, USART_RECEIVE_DISABLE);
+                IOConfigGPIO(uartTxIo(s), IOCFG_AF_PP);
+                usart_transmit_config(usart, USART_TRANSMIT_ENABLE);
+                usart_interrupt_enable(usart, USART_INT_TC);
+            }
             usart_data_transmit(usart, s->port.txBuffer[s->port.txBufferTail]);
             s->port.txBufferTail = (s->port.txBufferTail + 1) % s->port.txBufferSize;
         } else {

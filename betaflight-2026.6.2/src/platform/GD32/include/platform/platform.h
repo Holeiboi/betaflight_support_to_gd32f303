@@ -101,6 +101,8 @@ typedef ControlStatus FunctionalState;
 #define IOCFG_IPD             IO_CONFIG(GPIO_MODE_IPD,         GPIO_OSPEED_2MHZ,  0)
 #define IOCFG_IPU             IO_CONFIG(GPIO_MODE_IPU,         GPIO_OSPEED_2MHZ,  0)
 #define IOCFG_IN_FLOATING     IO_CONFIG(GPIO_MODE_IN_FLOATING, GPIO_OSPEED_2MHZ,  0)
+
+#define UART_TRAIT_BIDIR_PP_PREPEND 1
 #define IOCFG_IPU_25          IO_CONFIG(GPIO_MODE_IPU,         GPIO_OSPEED_50MHZ, 0)
 #define IOCFG_AIN             IO_CONFIG(GPIO_MODE_AIN,         GPIO_OSPEED_2MHZ,  0)
 
